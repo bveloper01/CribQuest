@@ -46,6 +46,7 @@ class _AreaRangeSliderState extends State<AreaRangeSlider> {
           color: Colors.white,
           padding: const EdgeInsets.fromLTRB(12, 8, 12, 8),
           child: Material(
+            color: Colors.white,
             child: SliderTheme(
               data: const SliderThemeData(
                 activeTrackColor: primaryColor,

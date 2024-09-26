@@ -45,12 +45,14 @@ class _PriceRangeSliderState extends State<PriceRangeSlider> {
           color: Colors.white,
           padding: const EdgeInsets.fromLTRB(12, 8, 12, 8),
           child: Material(
+            color: Colors.white,
             child: SliderTheme(
               data: const SliderThemeData(
                 activeTrackColor: primaryColor,
                 thumbColor: primaryColor,
               ),
               child: RangeSlider(
+                activeColor: primaryColor,
                 values: _priceRangeValues,
                 min: 0,
                 max: 10,
