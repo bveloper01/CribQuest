@@ -7,10 +7,8 @@ class PropertyType extends StatefulWidget {
   @override
   State<PropertyType> createState() => _PropertyTypeState();
 }
-
 class _PropertyTypeState extends State<PropertyType> {
-  String _selectedPropertyType = ''; // Track the selected property type
-
+  String _selectedPropertyType = ''; 
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -42,15 +40,13 @@ class _PropertyTypeState extends State<PropertyType> {
       ],
     );
   }
-
-  // Button widget with active state
   Widget _buildPropertyTypeButton(String text, IconData icon) {
     bool isSelected = _selectedPropertyType ==
-        text; // Check if the current button is selected
+        text;
     return GestureDetector(
       onTap: () {
         setState(() {
-          _selectedPropertyType = text; // Update the selected property type
+          _selectedPropertyType = text; 
         });
       },
       child: Column(
@@ -60,7 +56,7 @@ class _PropertyTypeState extends State<PropertyType> {
             size: 35,
             color: isSelected
                 ? secondaryColor
-                : Colors.grey, // Change color when active
+                : Colors.grey, 
           ),
           const SizedBox(height: 4),
           SizedBox(

@@ -25,7 +25,6 @@ class PropertySearchScreen extends StatefulWidget {
   @override
   PropertySearchScreenState createState() => PropertySearchScreenState();
 }
-
 class PropertySearchScreenState extends State<PropertySearchScreen> {
   OverlayEntry? _overlayEntry;
 
@@ -37,7 +36,6 @@ class PropertySearchScreenState extends State<PropertySearchScreen> {
     _overlayEntry?.remove();
     _overlayEntry = null;
   }
-
   @override
   Widget build(BuildContext context) {
     SystemChrome.setPreferredOrientations([

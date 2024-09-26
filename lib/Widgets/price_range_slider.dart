@@ -23,7 +23,6 @@ class _PriceRangeSliderState extends State<PriceRangeSlider> {
                   TextStyle(fontWeight: FontWeight.w500, color: Colors.black)),
         ),
         const SizedBox(height: 8),
-        // Wrapping RangeSlider in a Material widget
         Container(
           margin: const EdgeInsets.fromLTRB(10, 0, 10, 0),
           color: Colors.white,

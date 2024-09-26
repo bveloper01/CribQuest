@@ -9,10 +9,8 @@ class AvailabilityRadioButton extends StatefulWidget {
   State<AvailabilityRadioButton> createState() =>
       _AvailabilityRadioButtonState();
 }
-
 class _AvailabilityRadioButtonState extends State<AvailabilityRadioButton> {
   String _selectedAvailability = '';
-
   @override
   Widget build(BuildContext context) {
     return Column(

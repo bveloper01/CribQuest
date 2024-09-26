@@ -9,7 +9,6 @@ class CupertinoSearchQuery extends StatefulWidget {
   @override
   State<CupertinoSearchQuery> createState() => _CupertinoSearchQueryState();
 }
-
 class _CupertinoSearchQueryState extends State<CupertinoSearchQuery> {
   final TextEditingController _controller = TextEditingController();
   final FocusNode _focusNode = FocusNode();
@@ -21,13 +20,11 @@ class _CupertinoSearchQueryState extends State<CupertinoSearchQuery> {
     'Purva Fountain Square',
     'Keerthi Pride'
   ];
-
   @override
   void initState() {
     super.initState();
     _focusNode.addListener(_onFocusChange);
   }
-
   void _onFocusChange() {
     if (_focusNode.hasFocus) {
       _showOverlay();
@@ -35,7 +32,6 @@ class _CupertinoSearchQueryState extends State<CupertinoSearchQuery> {
       _removeOverlay();
     }
   }
-
   void _showOverlay() {
     _overlayEntry = OverlayEntry(
       builder: (context) => Positioned(
@@ -54,12 +50,10 @@ class _CupertinoSearchQueryState extends State<CupertinoSearchQuery> {
     Overlay.of(context).insert(_overlayEntry!);
     widget.onOverlayCreated(_overlayEntry!);
   }
-
   void _removeOverlay() {
     _overlayEntry?.remove();
     _overlayEntry = null;
   }
-
   @override
   void dispose() {
     _controller.dispose();
@@ -68,7 +62,6 @@ class _CupertinoSearchQueryState extends State<CupertinoSearchQuery> {
     _removeOverlay();
     super.dispose();
   }
-
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -100,7 +93,6 @@ class _CupertinoSearchQueryState extends State<CupertinoSearchQuery> {
       ),
     );
   }
-
   Widget _buildSearchOverlay() {
     return Container(
       width: MediaQuery.sizeOf(context).width * 0.7,
@@ -120,7 +112,6 @@ class _CupertinoSearchQueryState extends State<CupertinoSearchQuery> {
       ),
     );
   }
-
   Widget _buildSection(String title, List<String> items, IconData icon,
       {bool showClearAll = false}) {
     return SingleChildScrollView(
@@ -150,7 +141,7 @@ class _CupertinoSearchQueryState extends State<CupertinoSearchQuery> {
                         recentSearches.clear();
                       });
                       _overlayEntry
-                          ?.markNeedsBuild(); // Immediately rebuild the overlay
+                          ?.markNeedsBuild(); 
                     },
                   ),
               ],
@@ -161,7 +152,6 @@ class _CupertinoSearchQueryState extends State<CupertinoSearchQuery> {
       ),
     );
   }
-
   Widget _buildSearchItem(IconData icon, String text) {
     return CupertinoButton(
       padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),

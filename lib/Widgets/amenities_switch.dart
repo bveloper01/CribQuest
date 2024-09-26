@@ -4,11 +4,9 @@ import 'package:property_search/Components/colors.dart';
 
 class AmenitiesSwitch extends StatefulWidget {
   const AmenitiesSwitch({super.key});
-
   @override
   State<AmenitiesSwitch> createState() => _AmenitiesSwitchState();
 }
-
 class _AmenitiesSwitchState extends State<AmenitiesSwitch> {
   bool _gymSelected = false;
   bool _liftSelected = false;
@@ -47,7 +45,6 @@ class _AmenitiesSwitchState extends State<AmenitiesSwitch> {
       ],
     );
   }
-
   Widget _buildAmenityOption(String text) {
     return Container(
       margin: const EdgeInsets.fromLTRB(12, 0, 12, 0),

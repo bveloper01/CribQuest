@@ -4,14 +4,11 @@ import 'package:property_search/Components/colors.dart';
 
 class TopNavBar extends StatefulWidget {
   const TopNavBar({super.key});
-
   @override
   State<TopNavBar> createState() => _TopNavBarState();
 }
-
 class _TopNavBarState extends State<TopNavBar> {
-  String _selectedOption = 'Buy'; // Track the selected button
-
+  String _selectedOption = 'Buy';
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -29,15 +26,14 @@ class _TopNavBarState extends State<TopNavBar> {
       ),
     );
   }
-
   Widget _buildOptionButton(String text) {
     bool isSelected =
-        _selectedOption == text; // Check if the button is selected
+        _selectedOption == text; 
     return CupertinoButton(
       padding: const EdgeInsets.symmetric(horizontal: 8),
       onPressed: () {
         setState(() {
-          _selectedOption = text; // Update the selected option
+          _selectedOption = text; 
         });
       },
       child: Column(

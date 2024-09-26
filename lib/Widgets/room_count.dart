@@ -8,10 +8,8 @@ class BedRoomCount extends StatefulWidget {
   @override
   State<BedRoomCount> createState() => _BedRoomCountState();
 }
-
 class _BedRoomCountState extends State<BedRoomCount> {
   int _selectedBedrooms = 0;
-
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -38,7 +36,6 @@ class _BedRoomCountState extends State<BedRoomCount> {
       ],
     );
   }
-
   Widget _buildBedroomButton(String text) {
     bool isSelected = _selectedBedrooms.toString() == text;
     return Expanded(
