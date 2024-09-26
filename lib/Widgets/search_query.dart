@@ -88,7 +88,6 @@ class _CupertinoSearchQueryState extends State<CupertinoSearchQuery> {
           borderRadius: BorderRadius.circular(8.0),
         ),
         onSubmitted: (value) {
-          print('Searching for: $value');
           setState(() {
             if (!recentSearches.contains(value)) {
               recentSearches.insert(0, value);
