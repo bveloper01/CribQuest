@@ -1,10 +1,10 @@
 <h1 align="center">Xplore</h1>
-<h2 align="center">Xplore is a property search app built for users looking to discover properties with ease and precision. Utilizing the power of Flutter and Dart, the app offers a seamless and responsive experience across devices. Its intuitive design, built on a robust MVC architecture, ensures clean, maintainable code while delivering an advanced search functionality. Whether you're looking for localities, projects, or builders, Xplore provides a refined user experience tailored for real estate searches.</h2>
+<h2 align="center">Xplore is a property search app built for users looking to discover properties with ease and precision. Utilizing the power of Flutter and Dart, the app offers a seamless and responsive experience across devices. Its intuitive design, built on a robust MVC architecture, ensures clean, maintainable code while delivering advanced search functionality. Whether you're looking for localities, projects, or builders, Xplore provides a refined user experience tailored for real estate searches.</h2>
 <h3 align="left"> 
   
 • Tech Stack: Flutter, Dart, MVC architecture ensuring scalability and maintainability.
 
-• Advanced Search: Smart search suggestions, recent search history, and filtered results.
+• Advanced Search: Smart search suggestions, recent search history, and filter results.
 
 • Platform-Specific Adaptations: Cupertino and Material design elements ensure a native look and feel on iOS and Android.
 
@@ -13,12 +13,10 @@
 <br>
 
 
-<p align="left">
-<img src ="https://github.com/user-attachments/assets/da86b098-0fa5-41d6-8436-5b1fb50ba8f7" />     <img src ="https://github.com/user-attachments/assets/9db63461-2658-42f3-bce8-dd650ba4fde9" />   <img src ="https://github.com/user-attachments/assets/61fd6219-818d-4509-8bbe-04960f1a1b26" /> 
+<h3 align="center">Demo video: https://www.loom.com/share/0338ead448474f8c87e7d66fc1821b06?sid=8f747813-e3cf-4d0a-ac68-a3fd85653ea2
 
-<img src ="https://github.com/user-attachments/assets/77da2bed-9afd-4761-aa1f-d0423b09a070" />    <img src ="https://github.com/user-attachments/assets/7fa0f069-3a5f-4e11-8938-a6fdeba2598a" />  <img src ="https://github.com/user-attachments/assets/88f0f883-48d3-416d-8981-a99937ae628f" /> 
-</p>
-
+</h3>
+<br>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
